@@ -13,7 +13,8 @@ The goal in this project are to analyze the data collected by the HR department 
 If I can predict employees likely to quit, it might be possible to identify factors that contribute to their leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 ## 🗂️ Dataset
 The dataset was taken from Kaggle. To see the dataset visit [this](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv)  or you can find csv file in data folder.
-In this dataset, there are 14,999 rows, 10 columns, and these variables:
+
+There are 14,999 rows, 10 columns, and these variables:
 - **satisfaction_level**: Employee-reported job satisfaction level [0–1]
 - **last_evaluation**: Score of employee's last performance review [0–1]
 - **number_project**: Number of projects employee contributes to
