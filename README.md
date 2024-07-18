@@ -28,3 +28,12 @@ There are 14,999 rows, 10 columns, and these variables:
 ## 🛠️ Methodology
 
 ## ✅ The result
+
+   |No.| Model | Precision | Recall | F1-Score | Accuracy | AUC-ROC |  
+    | --------| -------- | ------- | ------- | ------- | ------- | ------- |
+    |1|Logistic Regression|0.794|0.822|0.803|0.821|0.603|
+    |2|Support Vector Machine (SVM)|0.966|0.966|0.966|0.966|0.939|
+    |3|Multi-layer Perceptron (MLP)|0.948|0.949|0.949|0.949|0.905|
+    |4|Decision Tree|0.981|0.982|0.982|0.982|0.961|
+    |5|Random Forest|0.985|0.985|0.985|0.985|0.963|
+    |6|Gradient Boosting Classifier (XGB)|0.986|0.986|0.986|0.986|0.966|
