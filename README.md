@@ -66,5 +66,30 @@ It appears that employees are leaving the company as a result of poor management
 
    ### 🤖 Best model
    |Model | Precision | Recall | F1-Score | Accuracy | AUC-ROC |  
-   | ----------- | ---------- | ------- | ------- | ------- |
+   | -----| ------ | ---------- | ------- | ------- | ------- |
    |Gradient Boosting Classifier (XGB)|0.986|0.986|0.986|0.986|0.966|
+
+   ![image](https://github.com/user-attachments/assets/cbe4374e-ef79-4b4c-89da-e35bbfafede7)
+The Gradient Boosting Classifier predicts more false positives than false negatives, which means that some employees may be identified as at risk of quitting or getting fired, when that's actually not the case. This model outperforms all other models in predicting the False Positive score (30), minimizing prediction risk. So this is still a strong model.
+
+All tree-based models consistently highlight features `tenure`,`satisfaction_level`, `number_project`,  and `last_evaluation` as key factors influencing an employee's decision to leave their job
+
+   ### ✨ Conclusion, Recommendations, Next Steps
+
+The models and the feature importances extracted from the models confirm that employees at the company are **overworked**. 
+
+To retain employees, the following recommendations could be presented to the stakeholders:
+
+* Cap the number of projects that employees can work on.
+* Consider promoting employees who have been with the company for atleast four years, or conduct further investigation about why four-year tenured employees are so dissatisfied. 
+* Either reward employees for working longer hours, or don't require them to do so. 
+* If employees aren't familiar with the company's overtime pay policies, inform them about this. If the expectations around workload and time off aren't explicit, make them clear. 
+* Hold company-wide and within-team discussions to understand and address the company work culture, across the board and in specific contexts. 
+* High evaluation scores should not be reserved for employees who work 200+ hours per month. Consider a proportionate scale for rewarding employees who contribute more/put in more effort. 
+
+**Next Steps**
+
+It may be justified to still have some concern about data leakage. It could be prudent to consider how predictions change when `last_evaluation` is removed from the data. It's possible that evaluations aren't performed very frequently, in which case it would be useful to be able to predict employee retention without this feature. It's also possible that the evaluation score determines whether an employee leaves or stays, in which case it could be useful to pivot and try to predict performance score. The same could be said for satisfaction score. 
+
+For another project, you could try building a K-means model on this data and analyzing the clusters. This may yield valuable insight. 
+
