@@ -26,7 +26,17 @@ There are 14,999 rows, 10 columns, and these variables:
 - **Department** The employee's department
 - **salary**: The employee's salary (U.S. dollars)
 ## 🛠️ Methodology
+![image](https://github.com/user-attachments/assets/80e240fb-354e-4d10-9fbc-9826d01395d6)
+   ### 🤔 Plan 
+   - **Understand the business scenario and problem:**
+The HR department at Salifort Motors wants to take some initiatives to improve employee satisfaction levels at the company. They collected data from employees, but now they don’t know what to do with it. They refer to you as a data analytics professional and ask you to provide data-driven suggestions based on your understanding of the data. They have the following question: what’s likely to make the employee leave the company?
+    - **Familiarize with the HR dataset**
+    - **Gather basic information and descriptive statistics about the data**
+    - 
 
+Your goals in this project are to analyze the data collected by the HR department and to build a model that predicts whether or not an employee will leave the company.
+
+If you can predict employees likely to quit, it might be possible to identify factors that contribute to their leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 ## ✅ The result
    ### 🔍 Insight
 It appears that employees are leaving the company as a result of poor management. Leaving is tied to longer working hours, many projects, and generally lower satisfaction levels. It can be ungratifying to work long hours and not receive promotions or good evaluation scores. There's a sizeable group of employees at this company who are probably burned out. It also appears that if an employee has spent more than six years at the company, they tend not to leave
