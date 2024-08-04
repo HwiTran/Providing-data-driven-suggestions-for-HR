@@ -42,6 +42,8 @@ Analyze relationships between variables to understand how many employees left an
    ### 🚧 Construct Stage
    - **Determine which models are most appropriate**
    - **Model building**
+
+
       |No.| Model | Precision | Recall | F1-Score | Accuracy | AUC-ROC |  
    | -----| ----------- | ----------- | ---------- | ------- | ------- | ------- |
    |1|Logistic Regression|0.794|0.822|0.803|0.821|0.603|
