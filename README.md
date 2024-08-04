@@ -70,6 +70,7 @@ It appears that employees are leaving the company as a result of poor management
    |Gradient Boosting Classifier (XGB)|0.986|0.986|0.986|0.986|0.966|
 
    ![image](https://github.com/user-attachments/assets/cbe4374e-ef79-4b4c-89da-e35bbfafede7)
+   
 The Gradient Boosting Classifier predicts more false positives than false negatives, which means that some employees may be identified as at risk of quitting or getting fired, when that's actually not the case. This model outperforms all other models in predicting the False Positive score (30), minimizing prediction risk. So this is still a strong model.
 
 All tree-based models consistently highlight features `tenure`,`satisfaction_level`, `number_project`,  and `last_evaluation` as key factors influencing an employee's decision to leave their job
