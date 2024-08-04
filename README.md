@@ -6,7 +6,7 @@ The repository is organized into the following directories:
 
 - **/data**: This directory contains the dataset.
 - **/EDA**: This directory contains the Jupyter notebook ```EDA.ipynb```. This notebook guides you through exploratory data analysis (EDA) and predict tasks.
-
+- **/pretrain_model**: This directory contains the best pretrain model ```XGB.pkl```
 ## 🎯 Purpose
 The goal in this project are to analyze the data collected by the HR department and to build a model that predicts whether or not an employee will leave the company.
 
